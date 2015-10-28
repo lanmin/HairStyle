@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="StylistTableViewCell" customModule="HairStyle" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJd-SW-Odg">
+                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Ybs-TI-fto"/>
+                            <constraint firstAttribute="height" constant="40" id="rh7-He-W8m"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="first"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="赵杨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIV-x8-gYI">
+                        <rect key="frame" x="60" y="10" width="34" height="21"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.15294117647058825" green="0.6588235294117647" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2011年参加日本宫造型发型设计班，造型独特、美观。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0a-3N-i7p">
+                        <rect key="frame" x="60" y="51" width="250" height="41"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y40-MK-4Xn">
+                        <rect key="frame" x="65" y="106" width="240" height="128"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="a5u-Se-7HF">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="1oe-CE-eyZ"/>
+                                    <constraint firstAttribute="height" constant="128" id="3TY-dp-V7x"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sd1-FS-KPI">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.91372555489999996" green="0.92941182850000004" blue="0.72941178080000002" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="a5u-Se-7HF" secondAttribute="trailing" id="Jgp-4d-Ptl"/>
+                            <constraint firstAttribute="bottom" secondItem="a5u-Se-7HF" secondAttribute="bottom" id="PcH-my-McH"/>
+                            <constraint firstItem="a5u-Se-7HF" firstAttribute="top" secondItem="y40-MK-4Xn" secondAttribute="top" id="Q4r-En-c5e"/>
+                            <constraint firstItem="a5u-Se-7HF" firstAttribute="leading" secondItem="y40-MK-4Xn" secondAttribute="leading" id="Zqk-bX-Znz"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="店长" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5X-vw-3hK">
+                        <rect key="frame" x="282" y="14" width="28" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="银座造型" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUe-5X-c5h">
+                        <rect key="frame" x="60" y="267" width="56" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="888.7km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZr-2h-14V">
+                        <rect key="frame" x="252" y="267" width="58" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="y40-MK-4Xn" firstAttribute="top" secondItem="O0a-3N-i7p" secondAttribute="bottom" constant="14" id="2Fi-v9-mxl"/>
+                    <constraint firstItem="O0a-3N-i7p" firstAttribute="top" secondItem="BIV-x8-gYI" secondAttribute="bottom" constant="20" id="8Dk-hQ-D21"/>
+                    <constraint firstItem="y40-MK-4Xn" firstAttribute="centerX" secondItem="O0a-3N-i7p" secondAttribute="centerX" id="8hg-wk-BLl"/>
+                    <constraint firstAttribute="trailing" secondItem="O0a-3N-i7p" secondAttribute="trailing" constant="10" id="BLs-eA-C56"/>
+                    <constraint firstItem="S5X-vw-3hK" firstAttribute="bottom" secondItem="BIV-x8-gYI" secondAttribute="bottom" id="FZk-BG-hes"/>
+                    <constraint firstItem="y40-MK-4Xn" firstAttribute="leading" secondItem="O0a-3N-i7p" secondAttribute="leading" id="Msy-tv-KO7"/>
+                    <constraint firstItem="eZr-2h-14V" firstAttribute="bottom" secondItem="GUe-5X-c5h" secondAttribute="bottom" id="NU9-S4-467"/>
+                    <constraint firstItem="eZr-2h-14V" firstAttribute="trailing" secondItem="y40-MK-4Xn" secondAttribute="trailing" id="Rha-F0-w7v"/>
+                    <constraint firstItem="GUe-5X-c5h" firstAttribute="leading" secondItem="y40-MK-4Xn" secondAttribute="leading" id="USn-yW-K3d"/>
+                    <constraint firstItem="eZr-2h-14V" firstAttribute="trailing" secondItem="S5X-vw-3hK" secondAttribute="trailing" id="Ua1-ID-93E"/>
+                    <constraint firstItem="BIV-x8-gYI" firstAttribute="leading" secondItem="OJd-SW-Odg" secondAttribute="trailing" constant="10" id="ZFD-RN-Yjj"/>
+                    <constraint firstItem="O0a-3N-i7p" firstAttribute="leading" secondItem="BIV-x8-gYI" secondAttribute="leading" id="ajz-h3-u13"/>
+                    <constraint firstItem="y40-MK-4Xn" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="jFJ-AR-GK1"/>
+                    <constraint firstAttribute="bottom" secondItem="eZr-2h-14V" secondAttribute="bottom" constant="15" id="pVN-DY-Cgp"/>
+                    <constraint firstItem="OJd-SW-Odg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="rlM-6b-xFU"/>
+                    <constraint firstAttribute="trailing" secondItem="S5X-vw-3hK" secondAttribute="trailing" constant="10" id="uK6-Uy-qDF"/>
+                    <constraint firstItem="BIV-x8-gYI" firstAttribute="top" secondItem="OJd-SW-Odg" secondAttribute="top" id="uqf-g0-h8D"/>
+                    <constraint firstItem="OJd-SW-Odg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="xyu-CA-zGm"/>
+                    <constraint firstItem="GUe-5X-c5h" firstAttribute="leading" secondItem="O0a-3N-i7p" secondAttribute="leading" id="yqb-fu-8eZ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Msy-tv-KO7"/>
+                        <exclude reference="jFJ-AR-GK1"/>
+                        <exclude reference="USn-yW-K3d"/>
+                        <exclude reference="Rha-F0-w7v"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="collectionHeight" destination="3TY-dp-V7x" id="Bb9-u4-ZnE"/>
+                <outlet property="collectionV" destination="a5u-Se-7HF" id="cwR-dK-b7p"/>
+                <outlet property="collectionWidth" destination="1oe-CE-eyZ" id="kcg-dz-kg5"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="first" width="350" height="200"/>
+    </resources>
+</document>
