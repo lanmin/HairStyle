@@ -14,20 +14,20 @@
 		041110A91BDB7B8700BA9325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041110A71BDB7B8700BA9325 /* LaunchScreen.storyboard */; };
 		041110B41BDB7B8800BA9325 /* HairStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041110B31BDB7B8800BA9325 /* HairStyleTests.swift */; };
 		041110BF1BDB7B8800BA9325 /* HairStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041110BE1BDB7B8800BA9325 /* HairStyleUITests.swift */; };
-		041111161BDCF22A00BA9325 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111151BDCF22A00BA9325 /* BaseViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		041111181BDCF26200BA9325 /* GroupBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111171BDCF26200BA9325 /* GroupBuyViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		0411111A1BDCF28000BA9325 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111191BDCF28000BA9325 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		0411111C1BDCF28F00BA9325 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411111B1BDCF28F00BA9325 /* MyPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		0411111E1BDCF2A100BA9325 /* StylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411111D1BDCF2A100BA9325 /* StylistViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		0411112F1BDD125A00BA9325 /* MacroSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411112E1BDD125A00BA9325 /* MacroSwift.swift */; settings = {ASSET_TAGS = (); }; };
-		041111311BDD14E900BA9325 /* CirCleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111301BDD14E900BA9325 /* CirCleView.swift */; settings = {ASSET_TAGS = (); }; };
-		044949EE1BDE1B0500F10895 /* MainHotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044949EC1BDE1B0500F10895 /* MainHotTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		044949EF1BDE1B0500F10895 /* MainHotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044949ED1BDE1B0500F10895 /* MainHotTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		04EF93381BDF473D0061B6E4 /* StylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF93361BDF473D0061B6E4 /* StylistTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		04EF93391BDF473D0061B6E4 /* StylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF93371BDF473D0061B6E4 /* StylistTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		04EF933C1BDFC2B90061B6E4 /* StylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF933A1BDFC2B90061B6E4 /* StylistCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		04EF933D1BDFC2B90061B6E4 /* StylistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF933B1BDFC2B90061B6E4 /* StylistCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		04EF933F1BE0A3DC0061B6E4 /* GroupTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF933E1BE0A3DC0061B6E4 /* GroupTopView.swift */; settings = {ASSET_TAGS = (); }; };
+		041111161BDCF22A00BA9325 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111151BDCF22A00BA9325 /* BaseViewController.swift */; };
+		041111181BDCF26200BA9325 /* GroupBuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111171BDCF26200BA9325 /* GroupBuyViewController.swift */; };
+		0411111A1BDCF28000BA9325 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111191BDCF28000BA9325 /* MainViewController.swift */; };
+		0411111C1BDCF28F00BA9325 /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411111B1BDCF28F00BA9325 /* MyPageViewController.swift */; };
+		0411111E1BDCF2A100BA9325 /* StylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411111D1BDCF2A100BA9325 /* StylistViewController.swift */; };
+		0411112F1BDD125A00BA9325 /* MacroSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411112E1BDD125A00BA9325 /* MacroSwift.swift */; };
+		041111311BDD14E900BA9325 /* CirCleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041111301BDD14E900BA9325 /* CirCleView.swift */; };
+		044949EE1BDE1B0500F10895 /* MainHotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044949EC1BDE1B0500F10895 /* MainHotTableViewCell.swift */; };
+		044949EF1BDE1B0500F10895 /* MainHotTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044949ED1BDE1B0500F10895 /* MainHotTableViewCell.xib */; };
+		04EF93381BDF473D0061B6E4 /* StylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF93361BDF473D0061B6E4 /* StylistTableViewCell.swift */; };
+		04EF93391BDF473D0061B6E4 /* StylistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF93371BDF473D0061B6E4 /* StylistTableViewCell.xib */; };
+		04EF933C1BDFC2B90061B6E4 /* StylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF933A1BDFC2B90061B6E4 /* StylistCollectionViewCell.swift */; };
+		04EF933D1BDFC2B90061B6E4 /* StylistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF933B1BDFC2B90061B6E4 /* StylistCollectionViewCell.xib */; };
+		04EF933F1BE0A3DC0061B6E4 /* GroupTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF933E1BE0A3DC0061B6E4 /* GroupTopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
